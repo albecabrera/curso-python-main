@@ -53,10 +53,20 @@ print("Usa f-strings para imprimir una presentación.")
 
 ### Completa aquí
 
-print("--------------")
+name = "Alberto"
+age = 47
+height = 1.71
+print(f"Hola! Me llamo {name} y tengo {age} años, mido {height} metros")
+
 
 print("\nEjercicio 5: Números")
 print("1. Crea una variable con el número PI (sin asignar una variable)")
 print("2. Redondea el número con round()")
 print("3. Haz la división entera entre el número que te salió y el número 2")
 print("4. El resultado debería ser 1")
+
+### Completa aquí
+PI = 3.14159
+rounded = round(PI)
+division = rounded // 2
+print(division)
