@@ -4,6 +4,8 @@
 # Sirve para mostrar información en consola y te va a acompañar
 # TODA TU VIDA. Desde hoy hasta el fin de los tiempos
 ###
+import os
+os.system("clear")
 
 print("¡Hola, Twitch!")
 print('Esto también funciona con una comilla')
