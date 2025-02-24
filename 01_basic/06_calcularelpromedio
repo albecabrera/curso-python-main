@@ -1,0 +1,11 @@
+# Pedir al usuario que ingrese tres números con input().
+# Convertir esos valores a números con int() o float().
+# Sumar los tres valores y dividirlos entre 3 para calcular el promedio.
+# Imprimir el resultado en pantalla. 
+
+num1 =float(input("Entra el primer numero:"))
+num2 = float(input("Entra el segundo numero:"))
+num3 = float(input("Entra el terter numero:"))
+
+resultado = (num1 + num2 + num3) / 3
+print(f"El resultado de la suma de {num1}, {num2}, {num3} es {resultado}: ")
