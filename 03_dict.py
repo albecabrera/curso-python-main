@@ -10,3 +10,5 @@ print(camiseta["talla"])
 print(camiseta["precio"])
 print(camiseta["unidades"])
 
+camiseta["unidades"] = 25
+print(f"Hay {camiseta['unidades']} unidades en el almacen")
