@@ -25,4 +25,5 @@ numero = 100.43
 numero_entero = int(numero) # Se convierte en int
 
 print(numero)
+print()
 print(numero_entero)
