@@ -25,5 +25,5 @@ numero = 100.43
 numero_entero = int(numero) # Se convierte en int
 
 print(numero)
-print()
+print() # Esto deja un espacio
 print(numero_entero)
